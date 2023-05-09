@@ -1,0 +1,627 @@
+body {
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+@font-face {
+    font-family: Devitta;
+    src: url(Devitta.ttf)
+}
+
+/* COLOR Start */
+
+#R100 {
+    color: #F4837A
+}
+
+#B100 {
+    color: #9BD0F1
+}
+
+#G100 {
+    color: #80C28D
+}
+
+#G200 {
+    color: #E9F5DB
+}
+
+#G300 {
+    color: #CFE1B9
+}
+
+#G400 {
+    color: #B5C99A
+}
+
+#G500 {
+    color: #A3B18A
+}
+
+#G550 {
+    color: #97A97C
+}
+
+#G600 {
+    color: #87986A
+}
+
+#G650 {
+    color: #718355
+}
+
+#G700 {
+    color: #588157
+}
+
+#G800 {
+    color: #3A5A40
+}
+
+#G900 {
+    color: #344E41
+}
+
+#G950 {
+    color: #283F33
+}
+
+#E100 {
+    color: #F8F7F3
+}
+
+#E200 {
+    color: #F3F0E5
+}
+
+#E300 {
+    color: #DAD7CD
+}
+
+#W100 {
+    color: #FFFFFF
+}
+
+/* COLOR End */
+
+
+/* DIV BOX Color Start */
+#BoxCategory_1 {
+    background-color: blue
+}
+
+#BoxCategory_2 {
+    background-color: blueviolet
+}
+
+#BoxCategory_3 {
+    background-color: #ffee00
+}
+
+#BoxCategory_4 {
+    background-color: chartreuse;
+}
+
+#BoxCategory_5 {
+    background-color: crimson;
+}
+
+#BoxCategory_6 {
+    background-color: orange;
+}
+
+/* DIV BOX Color End */
+
+
+/* Image responsive Start */
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.responsive-1 {
+    width: 80%;
+    height: auto;
+}
+
+.responsive-2 {
+    width: 7%;
+    height: auto;
+}
+
+/* Image responsive End */
+
+
+/* Center Image Start */
+
+.logo_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/* Center Image End */
+
+
+/* Group Buttons 1 Start */
+
+.btn-group_1 button {
+    position: absolute;
+    top: auto;
+    left: auto;
+    transform: translate(42%, -75%);
+    background-color: #263A2F;
+    color: #E5E5E5;
+    /* Text */
+    font-size: 20px;
+    font-family: Bebas, Sans-serif;
+    padding: 7px 40px;
+    /* Some padding */
+    border: 2px solid #DAD7CD;
+    cursor: pointer;
+    /* Pointer/hand icon */
+    border-radius: 45px;
+    text-align: center;
+    float: left;
+    /* Float the buttons side by side */
+    width: 160px;
+    height: 45px;
+}
+
+.btn-group_1 button:not(:last-child) {
+    border-right: none;
+    /* Prevent double borders */
+}
+
+.btn-group_1 container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.btn-group_1 img {
+    width: 100%;
+    height: auto;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group_1:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.btn-group_1 button:hover {
+    background-color: #DAD7CD;
+    border: 2px solid #263A2F;
+    color: #263A2F;
+    /* Text */
+
+}
+
+
+/* Group Buttons 1 End */
+
+
+/* Group Buttons 2 Start */
+
+.btn-group_2 button {
+    position: absolute;
+    top: auto;
+    left: auto;
+    background-color: #A3B18A;
+    color: #F8F7F3;
+    /* Text */
+    font-size: 20px;
+    font-family: Bebas, Sans-serif;
+    padding: 7px 40px;
+    /* Some padding */
+    border: 2px solid #263A2F;
+    cursor: pointer;
+    /* Pointer/hand icon */
+    border-radius: 45px;
+    text-align: center;
+    float: left;
+    /* Float the buttons side by side */
+    width: 160px;
+    height: 45px;
+}
+
+.btn-group_2 button:not(:last-child) {
+    border-right: none;
+    /* Prevent double borders */
+}
+
+.btn-group_2 container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.btn-group_2 img {
+    width: 100%;
+    height: auto;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group_2:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.btn-group_2 button:hover {
+    background-color: #DAD7CD;
+    border: 2px solid #263A2F;
+    color: #263A2F;
+    /* Text */
+
+}
+
+
+/* Group Buttons 2 End */
+
+
+
+/* Text Start*/
+
+.text-0 {
+    font-family: 'Barlow Semi Condensed';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 3vw;
+    line-height: 96px;
+
+    color: #87986A;
+}
+
+.text-1 {
+    position: absolute;
+    width: 1006px;
+    height: 775px;
+    left: 218px;
+    top: 1568px;
+
+    font-family: 'Barlow Semi Condensed';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 3vw;
+    line-height: 200%;
+    /* or 88px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.text-2 {
+    font-family: 'Barlow Semi Condensed';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 3vw;
+    line-height: 0px;
+
+    color: #283F33;
+}
+
+.text-3 {
+    font-family: 'Barlow Semi Condensed';
+    font-style: italic;
+    font-weight: 250;
+    font-size: 3vw;
+    line-height: 0px;
+
+    color: #283F33;
+}
+
+.text-4 {
+    font-family: 'Barlow Semi Condensed';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 6vw;
+    line-height: 118%;
+
+    text-align: center;
+
+    -webkit-text-fill-color: #FBF8EF;
+    -webkit-text-stroke: solid #283F33;
+    -webkit-text-stroke-color: #283F33;
+    -webkit-text-stroke-width: 2px;
+}
+
+.text-5 {
+    font-family: 'Barlow Semi Condensed';
+    font-style: Semi bold;
+    font-weight: 600;
+    font-size: 2vw;
+    line-height: 43px;
+
+    color: #A3B18A;
+}
+
+.text-6 {
+    position: absolute;
+    width: 1200px;
+    height: 900px;
+
+    font-family: 'Barlow Semi Condensed';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 3vw;
+    line-height: 70px;
+
+    color: #283F33;
+}
+
+.text-7 {
+    font-family: 'Barlow Semi Condensed';
+    font-style: extra bold;
+    font-weight: 800;
+    font-size: 7vw;
+    line-height: 118%;
+
+    -webkit-text-fill-color: #FBF8EF;
+    -webkit-text-stroke: solid #283F33;
+    -webkit-text-stroke-color: #283F33;
+    -webkit-text-stroke-width: 2px;
+
+    letter-spacing: 0.06em;
+}
+
+.text-8 {
+    font-family: 'Barlow Semi Condensed';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 5vw;
+    line-height: 118%;
+
+    letter-spacing: 0.015em;
+}
+
+.text-9 {
+    font-family: 'Devitta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7vw;
+    line-height: 72.02%;
+
+    -webkit-text-fill-color: #F3F0E5;
+    -webkit-text-stroke: solid;
+    -webkit-text-stroke-color: #263A2F;
+    -webkit-text-stroke-width: 4px;
+}
+
+.text-10 {
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 7vw;
+    line-height: 180px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #F3F0E5;
+}
+
+.text-11 {
+    font-family: 'Barlow Semi Condensed';
+    font-style: Semi bold;
+    font-weight: 600;
+    font-size: 3vw;
+    line-height: 43px;
+
+    color: #A3B18A;
+}
+
+/* Text End*/
+
+
+
+/* Text on Image Start */
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+/* Top right text */
+.top-right-1 {
+    position: absolute;
+    top: 520px;
+    right: 780px;
+}
+
+.top-right-2 {
+    position: absolute;
+    top: 680px;
+    right: 780px;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered-1 {
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Text on Image End */
+
+
+
+/* Overlay Image Start */
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.image1 {
+    position: relative;
+    /* at back */
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.image2 {
+    position: absolute;
+    /* in front */
+    top: 7220px;
+    left: 0px;
+    z-index: 2;
+}
+
+.image3 {
+    position: relative;
+    top: 1000px;
+    left: 20px;
+    z-index: 3;
+}
+
+.image4 {
+    position: absolute;
+    top: 160px;
+    left: 0px;
+    z-index: 4;
+}
+
+/* photography part */
+.image5 {
+    position: absolute;
+    top: 1700px;
+    left: -80px;
+    z-index: 5;
+}
+
+.image6 {
+    position: absolute;
+    top: 2650px;
+    left: 300px;
+    z-index: 6;
+}
+
+.image7 {
+    position: absolute;
+    top: 3700px;
+    left: -80px;
+    z-index: 7;
+}
+
+.image8 {
+    position: absolute;
+    top: 4650px;
+    left: 300px;
+    z-index: 8;
+}
+
+.image9 {
+    position: absolute;
+    /* in front */
+    top: 450px;
+    left: -150px;
+    z-index: 9;
+}
+
+.image10 {
+    position: relative;
+    top: -80px;
+    left: 0px;
+    z-index: 1;
+}
+
+/* Overlay Image End */
+
+
+
+/* Box for vid Start */
+
+.box-1 {
+    border: 2px solid #253A2F;
+    border-radius: 70px;
+    overflow: scroll;
+}
+
+.box-2 {
+    border: 2px solid #253A2F;
+    border-radius: 35px;
+    overflow: scroll;
+}
+
+/* Box for vid End */
+
+
+
+/* Overlay effect 20 Start */
+
+.container-20 {
+    position: relative;
+    width: 50%;
+}
+
+.image-20 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle-20 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container-20:hover .image-20 {
+    opacity: 0.3;
+}
+
+.container-20:hover .middle-20 {
+    opacity: 0.3;
+}
+
+/* Overlay effect 20 End */
